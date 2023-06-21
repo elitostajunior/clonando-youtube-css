@@ -1,0 +1,37 @@
+@import url('reset.css');
+
+header {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 24px;
+    gap: 32px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+.hdr-box-left, .hdr-box-right {
+    justify-content: space-around;
+    width: 150px;
+    height: 40px;
+}
+
+.box-search input {
+    width: 350px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-right: 0;
+}
+
+.box-button {
+    justify-content: center;
+    width: 50px;
+    height: 35px;
+    border: 1px solid #ccc;
+    background: #f8f8f8;    
+}
