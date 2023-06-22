@@ -6,7 +6,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 24px;
+    padding: 7px 24px;
     gap: 32px;
 }
 
@@ -19,6 +19,7 @@ header div {
     justify-content: space-around;
     width: 150px;
     height: 40px;
+    background: #ffffff;
 }
 
 .box-search input {
@@ -34,4 +35,87 @@ header div {
     border: 1px solid #ccc;
     background: #f8f8f8;  
     border-left: 0;  
+}
+
+main {
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 80vh;
+    border: 1px solid green;
+    margin: 0 5vw;
+}
+
+.watching-video {
+    min-width: 65vw;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.video-container, .video-container img {
+    width: 100%;
+}
+
+.title-container {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.video-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 1px 0;
+    gap: 2vw;
+    border: 1px solid purple;
+}
+
+#channel-infos {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#channel-infos span {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#channel-infos #subscriptions {
+    color: #515151;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#button-subscribe {
+    background: #cc0000;
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+aside {
+    background-color: aquamarine;
+    width: 30vw;
+    margin-left: 1vw;
 }
