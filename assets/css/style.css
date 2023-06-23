@@ -6,7 +6,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 7px 24px;
+    padding: 10px 24px;
     gap: 32px;
 }
 
@@ -43,6 +43,7 @@ main {
     min-height: 80vh;
     border: 1px solid green;
     margin: 0 5vw;
+    margin-bottom: 10vh;
 }
 
 .watching-video {
@@ -70,9 +71,8 @@ main {
     align-items: center;
     justify-content: flex-start;
     width: 100%;
-    padding: 1px 0;
+    padding: 2px 0;
     gap: 2vw;
-    border: 1px solid purple;
 }
 
 #channel-infos {
@@ -81,10 +81,11 @@ main {
     gap: 12px;
 }
 
-#channel-infos span {
+#channel-infos span a {
     color: #000;
     font-size: 14px;
     font-weight: 600;
+    text-decoration: none;
 }
 
 #channel-infos #subscriptions {
@@ -98,7 +99,6 @@ main {
     width: 159px;
     height: 40px;
     border-radius: 2px;
-    color: #ffffff;
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
@@ -106,12 +106,42 @@ main {
     padding-top: 12px;
 }
 
+#button-subscribe a {
+    background: #cc0000;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .buttons {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
     font-size: 14px;
     font-weight: 600;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: #000;
+}
+
+.views-and-date {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 2px 0;
+}
+
+.views-and-date span {
+    margin-right: 1vw;
+}
+
+.video-description {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    color: #515151;
+    font-size: 14px;
+    padding: 2px 0;
 }
 
 aside {
