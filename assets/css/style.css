@@ -6,8 +6,9 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 24px;
+    padding: 8px 24px;
     gap: 32px;
+    margin-bottom: 5px;
 }
 
 header div {
@@ -41,9 +42,8 @@ main {
     display: flex;
     flex-flow: row nowrap;
     min-height: 80vh;
-    border: 1px solid green;
-    margin: 0 5vw;
-    margin-bottom: 10vh;
+    margin: 0 7vw;
+    margin-bottom: 2vh;
 }
 
 .watching-video {
@@ -137,7 +137,7 @@ main {
 
 .video-description {
     display: flex;
-    width: 70%;
+    width: 80%;
     flex-direction: column;
     color: #515151;
     font-size: 14px;
@@ -148,4 +148,38 @@ aside {
     background-color: aquamarine;
     width: 30vw;
     margin-left: 1vw;
+}
+
+.suggestions-container {
+    width: 100%;
+    gap: 5px;
+    display: inline-flex;
+    padding-bottom: 10px; 
+}
+
+.suggestions-container img {
+    height: 100%;
+    margin-right: 8px;
+    border-radius: 7px;
+}
+
+.suggestion-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.suggestion-description .title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.suggestion-description .title a {
+    text-decoration: none;
+    color: #000;
+}
+
+.suggestion-description .subtitle {
+    color: #515151;
+    font-size: 12px;
 }
