@@ -18,3 +18,8 @@
 ### Protótipo do Figma
 
 - https://www.figma.com/file/lrRWUZPKnqMDZrSDJmZxUS/Desafio-de-Flexbox---DIO?type=design&node-id=0-1
+
+### Imagem do projeto
+
+![print-desktop](https://github.com/elitostajunior/clonando-youtube-css/assets/89365251/297fbbf3-0a9b-4e3e-850e-dbb6325991fe)
+
